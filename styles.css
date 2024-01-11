@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-weight: 200;
+}
+label, input{
+	margin: 20px;
+}
+
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+button{
+	margin: 20px;
+	padding: 10px;
+	background-color: green;
+	border: none;
+}
+
+#multiSelect{
+	border: 30px;
+}
